@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+* {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+header {
+    background-color: #581d22;
+    color: aliceblue;
+    width: 100vw;
+}
+nav {
+    padding: 15px 70px 15px 70px;
+    background-color: rgb(75, 75, 75);
+    width: 100%;
+}
+main {
+    width: 60%;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+img{
+    max-width: 100%;
+    max-height: 400px;
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: solid 2px gray;
+    width: 80vw;
+    padding: 15px;   
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+}
+.toda {
+    margin-top: 50px;
+}
+#h3{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+}
+#pag1 {
+    display: flex;
+    font-family: 'Comfortaa', cursive;
+    color: #581d22;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.t1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.link {
+    color: aliceblue;
+    padding: 20px;
+    font-size: large;
+}
+.toda {
+    text-align: center;
+    box-shadow: 0px 3px;
+    width: 70%;
+}
+.link:hover {
+    color: #581d22;
+    transition: 0.3s;
+}
+.link:hover {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+::-webkit-scrollbar {
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar-track {
+    background-color: gray;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #581d22;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #872e36;
+}
+@media(max-width:420px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+}

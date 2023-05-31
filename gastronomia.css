@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.tg{
+    padding: 15px;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color: #581d22;
+      color: aliceblue;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+h2{
+    padding:15px ;
+    margin-bottom: 9px;
+}
+
+img{
+    max-width: 500px;
+    max-height: 450px;
+    padding-bottom: 30px;
+}
+h3{
+    margin-bottom: 15px;
+
+}
+main{
+font-size: 20px;
+
+}
+p{
+    margin-bottom: 20px;
+}
+.Lrec{
+    color: #ffffff;
+    font-size: 25px;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 4px;
+   
+}
+.Lrec:hover{
+    background-color: #581d22;
+    padding: 15px;
+    border-radius: 5px;
+   
+}
+.linkrec{
+   margin-bottom: 20px;  
+}
+.nav_rdp{
+    background-color: gray;
+    padding: 15px;
+}
+.link_rdp{
+    color: aliceblue;
+    padding: 50px;
+    font-size: large;
+    text-decoration: none;
+}
+.link_rdp:hover{
+    color: #581d22;
+    transition: 0.3s;
+}
+.title_rdp{
+    padding: 5px;
+    color: aliceblue;
+}
+.txt_rdp{
+    padding: 30px;
+    font-size: 19px;
+}
+footer{
+    background-color: #581d22;
+    color: aliceblue;
+    
+}
+.icone_insta{
+    max-width: 100px;
+    max-height: 40px;
+}
+.icone_face{
+    max-width: 100px;
+    max-height: 40px;
+}
+.icone_lin{
+    max-width: 100px;
+    max-height: 40px;   
+}
+
+

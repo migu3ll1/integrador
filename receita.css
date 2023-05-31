@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.tg{
+    padding: 15px;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color: #581d22;
+      color: aliceblue;
+}
+main{
+    text-align: center;
+    display: inline;
+}
+body{
+    font-size: 20px;
+    background-image: url(food/vista-de-cima-em-close-up-temperos-coloridos-quatro-tipos-de-especiarias-alho-bola-de-pimenta-ao-lado-da-placa-de-madeira-da-cozinha-na-mesa.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    padding: 10px;
+    color: #ffffff;
+}
+
+
+div {
+    background-color: (rgb(104, 19, 19));
+    display: flex;
+    justify-content:space-around;
+    border-radius: 5px;
+
+}
+
+.di1 {
+    background-color: #0000007e;
+    display: block;
+    width: 30vw;
+    padding: 15px;
+    color: white;
+    height: fit-content;
+    animation: forwards 1s mariabobona;
+}
+
+.vi2 {
+    background-color: #0000007e;
+    display: block;
+    width: 30vw;
+    padding: 15px;
+   color: white;
+   height: fit-content;
+   margin-bottom: 15px;
+   animation: forwards 1s mariabobona;
+}
+
+.iv3 {
+    background-color:#0000007e;
+    display: block;
+    width: 30vw;
+    padding: 15px;
+    color: white;
+    height: fit-content;
+    animation: forwards 1s mariabobona;
+}
+img{
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 30px;
+
+   
+   
+}
+.nav_rdp{
+    background-color: gray;
+    padding: 10px;
+}
+.link_rdp{
+    color: aliceblue;
+    padding: 5px;
+    font-size: large;
+    text-decoration: none;
+}
+.link_rdp:hover{
+    color: #581d22;
+    transition: 0.3s;
+}
+.title_rdp{
+    padding: 5px;
+    color: aliceblue;
+}
+.txt_rdp{
+    padding: 30px;
+    font-size: 19px;
+}
+footer{
+    background-color: #581d22;
+    color: aliceblue;
+    
+}
+h3{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+@keyframes mariabobona{
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+
+
+
+

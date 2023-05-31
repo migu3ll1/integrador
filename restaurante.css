@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffffff;
+  
+}
+header{
+    background-color: #581d22;
+    color: aliceblue;
+}
+.t1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    max-width: 300px;
+    max-height: 150px;
+}
+nav{
+    padding: 15px;
+    background-color: rgb(75, 75, 75);
+}
+.link{
+    color: aliceblue;
+    padding: 30px;
+    font-size: large;
+}
+main{
+    width: 90%;
+   color: rgb(0, 0, 0);
+   font-size: 23px;
+}
+.title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 150px;
+}
+
+.link:hover{
+    color: #581d22;
+    transition: 0.3s;
+}
+.link:hover{
+    background-color: white;
+    padding:15px;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.img_n{
+    padding-top: 35px;
+    padding-bottom: 15px;
+    max-width: 700px;
+    max-height: 600px;
+}
+.link_login{
+    padding: 40px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+.txtn{
+    border-bottom: solid gray 2px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.txtn2{
+    padding-bottom: 70px;
+    font-size: 20px;
+    margin-top: 25px; 
+}
+.h2n2{
+    padding-top: 30px;
+}
+
+.title_rdp{
+    padding: 5px;
+    color:  #581d22;
+}
+.txt_rdp{
+    padding: 30px;
+    font-size: 19px;
+}
+footer{
+    background-color: #581d22;
+    color: aliceblue;
+    margin-top: 400px;
+}
+.menu_bar{
+    max-width: 100px;
+    max-height: 70px;
+    padding: 10px;
+}
+.icone{
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.icone_insta{
+    max-width: 100px;
+    max-height: 40px;
+}
+.icone_face{
+    max-width: 100px;
+    max-height: 40px;
+}
+.icone_lin{
+    max-width: 100px;
+    max-height: 40px;   
+}
+.img_n1{
+    max-width: 1000px;
+    max-height:700px ;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 20px;
+    color: #000000;
+}
+li{
+    font-size: 20px;
+    padding: 2%;
+}
+.titulopag{
+    color: #581d22;
+    padding: 2%;
+}
+
+a{
+    color: #490000;
+}
+
+

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+header{
+    background-color: #581d22;
+    color: aliceblue;
+}
+.t1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 12vh;
+    margin-bottom: 30px;
+}
+img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+.logo{
+    max-width: 300px;
+    max-height: 150px;
+}
+nav{
+    padding: 15px;
+    background-color: rgb(75, 75, 75);
+}
+.link{
+    color: aliceblue;
+    padding: 50px;
+    font-size: large;
+}
+main{
+    text-align: center;
+    width: 90%;
+    font-size: medium;
+    left: 60%;
+
+}
+.title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 150px;
+}
+.title_conteudo{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-bottom: solid 2px gray;
+    padding: 20px;
+}
+
+
+.link:hover{
+    color: #581d22;
+    transition: 0.3s;
+}
+.link:hover{
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.link_login{
+    padding: 40px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+.txtn{
+    padding-top: 15px;
+    border-bottom: solid gray 2px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.txtn2{
+    padding-bottom: 70px;
+    font-size: 20px;
+    border-bottom: solid 2px gray;
+    padding: 20px;
+    width: 100%;
+}
+.txtn3{
+    padding-top: 25px;
+    margin-bottom: 30px;
+}
+.h2n2{
+    padding-top: 30px;
+}
+.nav_rdp{
+    background-color: gray;
+    padding: 15px;
+}
+.link_rdp{
+    color: aliceblue;
+    padding: 50px;
+    font-size: large;
+    text-decoration: none;
+}
+.link_rdp:hover{
+    color: #581d22;
+    transition: 0.3s;
+}
+.title_rdp{
+    padding: 20px;
+    color: aliceblue;
+}
+.txt_rdp{
+    padding: 30px;
+    font-size: 19px;
+}
+footer{
+    background-color: #581d22;
+    color: aliceblue;
+}
+.menu_bar{
+    max-width: 100px;
+    max-height: 70px;
+    padding: 10px;
+}
+.icone{
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.icone_insta{
+    max-width: 100px;
+    max-height: 40px;
+}
+.icone_face{
+    max-width: 100px;
+    max-height: 40px;
+}
+.icone_lin{
+    max-width: 100px;
+    max-height: 40px;   
+}
+.txt1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: solid 2px gray;
+    padding: 20px;
+    width: 100%;
+}
+.txx2{
+    padding: 20px;
+    width: 100%;
+}
+.link1{
+    color: black;
+}
+.link1:hover{
+    transition: all 0.2s;
+    color:#581d22
+    
+}
+.link2{
+    transition: all 0.2s;
+    color: black;
+}
+.link2:hover{
+    transition: all 0.2s;
+    color:#581d22
+}
+.link3{
+    transition: all 0.2s;
+    color: black;
+}
+.link3:hover{
+    transition: all 0.2s;
+    color:#581d22
+}
+#ntc1{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+#inc1{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-bottom: solid 2px gray;
+}
+#inc2{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-bottom: solid 2px gray;
+}
+mark{
+    color: #581d22;
+}
+@media (max-width:600px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
